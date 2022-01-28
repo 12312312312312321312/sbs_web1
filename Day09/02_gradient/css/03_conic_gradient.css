@@ -1,24 +1,31 @@
 * { margin: 0; padding: 0; text-align: center;}
 
-.box {
+.box { 
     width: 600px;
     height: 600px;
     margin: 50px auto;
 }
 
-.simple {
+.simple { background-image: 
+    conic-gradient(red, yellow, green, blue, black);
     /* 여기에 작성해보세요:) */
 }
-.degree {
+.degree { background-image: 
+    conic-gradient(red 45deg, yellow 90deg, green 210deg);
    /* 여기에 작성해보세요:) */
 }
-.pie {
+.pie { background-image:
+    conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);  
+    border-radius: 50%;
     /* 여기에 작성해보세요:) */
 }
-.pie2 {
+.pie2 { background-image: 
+    conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
     /* 여기에 작성해보세요:) */
 }
 
-.position {
+.position {  background-image: 
+    conic-gradient(at 70% 75%, red, yellow, green);
    /* 여기에 작성해보세요:) */
 }

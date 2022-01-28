@@ -7,25 +7,32 @@
 }
 
 /* 모양 */
-.ellipse { 
+.ellipse { background-image:
+            radial-gradient(ellipse, #8a3ab9 0%, white 50%, #b53471 100%);
     /* 여기에 작성해보세요:) */
 }
-.circle { 
+.circle { background-image:
+   radial-gradient(circle closest-side at 50% 50%,
+   #FFF8F3 30%, pink 60%, lightblue 80%, skyblue 95%); 
     /* 여기에 작성해보세요:) */
 }
 
 /* 사이즈 */
-.closest-corner {
+.closest-corner { background-image:
+    radial-gradient(closest-corner at 60% 55%, blue, green, yellow, black);
     /* 여기에 작성해보세요:) */
 }
-.closest-side {
+.closest-side { background-image:
+    radial-gradient(closest-side at 60% 55%, blue, green, yellow, black);
     /* 여기에 작성해보세요:) */
 }
 
-.farthest-corner {
+.farthest-corner { background-image:
+    radial-gradient(farthest-corner at 60% 55%, blue, green, yellow, black);
     /* 여기에 작성해보세요:) */
 }
-.farthest-side {
+.farthest-side { background-image:
+    radial-gradient(farthest-side at 60% 55%, blue, green, yellow, black);
     /* 여기에 작성해보세요:) */
 }
 

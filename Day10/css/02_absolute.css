@@ -19,6 +19,8 @@
 }
 
 .container .absolute {
+    position: absolute;
+    border: 3px solid black;
     /* 여기에 작성해보세요:) */
 }
 
